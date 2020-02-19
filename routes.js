@@ -6,14 +6,14 @@ const errors = require('./src/errors');
 const healthRouter = require('./src/health/router');
 const taskRouter = require('./src/tasks/router');
 
-// Wire up middleware
+// middleware
 router.use(middleware.doSomethingInteresting);
 
-// Wire up routers
+// routers
 router.use('/health', healthRouter);
 router.use('/tasks', taskRouter);
 
-// Wire up error-handling middleware
+// manejador de errores
 router.use(errors.errorHandler);
 router.use(errors.nullRoute);
 

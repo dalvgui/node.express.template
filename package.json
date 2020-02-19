@@ -2,7 +2,7 @@
   "name": "api-template",
   "main": "server.js",
   "version": "0.0.1",
-  "author": "dalvgui",
+  "author": "Diego Álvarez Guinarte",
   "license": "MIT",
   "repository": "https://github.com/dalvgui/node.express.template",
   "scripts": {

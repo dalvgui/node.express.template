@@ -4,7 +4,7 @@
 
 ## Endpoints
 * `GET /health`:  API health endpoint
-* `/tasks`: Lists all tasks
+* `/users`: Lists all users
 * `null`: Default route, returns 404 as the endpoint requested does not exist
 
 ## How to run
